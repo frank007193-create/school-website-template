@@ -913,4 +913,4 @@ BEGIN
   UPDATE public.news
   SET views = COALESCE(views, 0) + 1
   WHERE id = news_id;
-END;git config --global user.name "School Admin"
+END;
